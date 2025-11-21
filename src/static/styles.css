@@ -199,3 +199,30 @@ footer {
   font-style: italic;
   color: #666;
 }
+
+/* Delete icon/button next to each participant */
+.participant-delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+.participant-delete:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+  color: #b71c1c;
+}
+
+.participant-delete:focus {
+  outline: 2px solid rgba(26, 35, 126, 0.15);
+  outline-offset: 2px;
+}
